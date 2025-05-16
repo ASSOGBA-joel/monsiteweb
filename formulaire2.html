@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Formulaire2</title>
+  <link rel="stylesheet" type="text/css" href="style.css" media=”all”/>
+<style type="text/css"> @import url(table.css);</style>
+</head>
+<body> 
+  <h3><u>Enrégistrement des Étudiants</u></h3>
+  <form method="post" action="cible_formulaire.php">  
+    <fieldset> 
+      <legend style="text-align:center"><strong>Etat Civil</strong></legend>  
+      <label for="nom">Nom:</label><br /> 
+      <input type="text" name="nom" id="nom" tabindex="5" placeholder="Entrez votre nom"  maxlength="50" /><br/>  
+      <label for="prenom">Prenoms:</label><br/> 
+      <input type="text" name="prenom" id="prenom" placeholder="Entrez votre prénom."tabindex="10" /><br/>
+<label for="date">Date de Naissance:</label><br /> 
+      <input type="text" name="date" id="date" placeholder="ex: 12/12/2025" tabindex="20" /><br/>
+      <label for="sexe">Sexe:</label><br /> 
+        <select name="sexe" id="sexe" tabindex="30"> 
+          <option value="masculin">Masculin</option>
+          <option value="feminin">Féminin</option>
+          <option value="autre">Autre</option>
+        </select>
+       <br/>    
+      <label for="email">E-mail:</label><br/> 
+      <input type="text" name="email" id="email" placeholder="ex: monnom@gmail.com" tabindex="40" /><br/>
+<label for="contact">Contact:</label><br /> 
+      <input type="text" name="contact" id="contact" placeholder="ex:(+229) 01......" tabindex="50" />
+    
+    </fieldset><br/>
+    <fieldset>
+      <legend style="text-align:center" ><strong>Les Diplômes</strong></legend>
+  <input type="checkbox" name="cep" id="cep"  />
+      <label for="cep">CEP</label> 
+      <input type="checkbox" name="bepc" id="bepc" />
+      <label for="bepc">BEPC</label>
+      <input type="checkbox" name="bac" id="bac"/>
+      <label for="bac">BAC</label>
+      <input type="checkbox" name="bts" id="bts"/>
+      <label for="bts">BTS</label>
+    </fieldset>
+    <p><label for="adress">Votre adresse:</label>
+      <textarea name="adress" id="adress" tabindex="70" placeholder="Entrez votre adresse."></textarea>
+    </p>
+    <fieldset>
+      <legend style="text-align:center"><strong>Votre Pays</strong></legend>
+      <input type="radio" name="pays" value="pays" id="benin"/>
+      <label for="benin">Bénin</label>
+      <input type="radio" name="pays" value="pays" id="senegal"/>
+      <label for="senegal">Sénégal</label> 
+      <input type="radio" name="pays" value="pays" id="france"/>
+      <label for="france">France</label>  
+    </fieldset><br/>
+    <fieldset>
+      <legend style="text-align:center" ><strong>Les boutons</strong></legend>
+      <input type="submit" value="Envoyer" />
+      <input type="reset" value="Effacer"/>
+      <input type="button" value="Quiter"    
+    </fieldset>
+    
+  </form>
+ 
+</body>
+</html>
