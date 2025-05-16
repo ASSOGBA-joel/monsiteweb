@@ -1,0 +1,28 @@
+body {
+  Color :navy ;font-family: ’Trebuchet MS’, times, verdana;
+background-image: url(images/imagep.webp); background-repeat: no-repeat; background-position: center right;
+background-attachment: fixed;   
+} 
+h1 {
+  text-align: center; color: rgb(243,65,243);
+  font-size: 14px;font-size: large; text-decoration: underline overline;    
+} 
+.gras { font-weight: bold; } 
+.italique { font-style: italic; } 
+a { text-decoration: none; } 
+a:hover { text-decoration: underline; } 
+.majuscules { text-transform: uppercase; } 
+.interligne { line-height: 2em; }
+.ecart { letter-spacing: 0.4em; } 
+.rapproch { letter-spacing: -3px; }
+.interligne { text-align: justify; }
+p { font-family: Arial, sans-serif; 
+  font-style: italic; 
+  font-weight: bold; 
+  font-size: 120%; 
+  line-height: 140%; }
+.bordure { width : 10em ; border-right: 1px solid red; }
+div#global { width: 300px; height: 200px; background-color: yellow; 
+  background-image: url(dossier/fond.jpg);
+  background-repeat: no-repeat ; 
+  background-position: right top; } 

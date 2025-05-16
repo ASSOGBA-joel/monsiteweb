@@ -1,0 +1,36 @@
+#f1,#ancre{color:white;text-align:center;background-color: black; }   
+div,#ha2{color:red;text-align:center; display: flex; ;
+   ;
+}
+#ass {text-align: center}
+.photo {text-align: center ;}
+body{background-image: url(images/imagep.webp) ;background-position: top;
+  background-repeat: repeat-y;background-attachment: fixed
+}
+#desc{border-style: double ; font-style: italic; 
+  font-weight: bold;text-align: justify;}
+#mon{border-style: groove ;border-width: thick}
+logo1 {float: left}
+logo2{float: right; margin-left:;}
+
+@media (min-width: 768px) {
+      body {
+          font-size: 1.2em;
+      }
+  }
+#container {
+      display: flex;
+      flex-wrap: nowrap;
+  }
+img {
+      max-width: 100%;
+      height: auto;
+  }
+
+
+
+
+
+
+
+

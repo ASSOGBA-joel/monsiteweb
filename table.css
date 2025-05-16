@@ -1,0 +1,14 @@
+table { border-collapse: collapse; width: 60%; margin: 5px auto;} 
+td {
+  border: 1px solid black; } 
+#b{border: 2px solid black}
+#a,#a1,#a2,#a3 {border: dotted;}
+#a1 { background-color: red}
+#a2 {color: blue; border-color: black}
+#a3 {background-color: green}
+body { text-align: center; background-image: url(images/photob.webp)}
+#v1,#v2,#v3{writing-mode: vertical-rl;
+  transform: rotate(200deg);
+}
+#etat2{margin-left: }
+#etat1{margin-right: }
