@@ -6,7 +6,7 @@ td {
 #a1 { background-color: red}
 #a2 {color: blue; border-color: black}
 #a3 {background-color: green}
-body { text-align: center; background-image: url(images/photob.webp)}
+body { text-align: center; background-image: url(photob.webp)}
 #v1,#v2,#v3{writing-mode: vertical-rl;
   transform: rotate(200deg);
 }
